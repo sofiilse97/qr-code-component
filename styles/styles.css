@@ -1,0 +1,79 @@
+/* Importa la fuente Outfit de Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
+  --primary: hsl(228, 45%, 44%);
+
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+}
+
+body {
+  font-family: "Outfit";
+  background-color: var(--slate-300);
+  margin: auto;
+  padding: 0;
+  height: 100vh;
+  place-content: center;
+}
+
+body p {
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--slate-500);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  padding: 10px 0;
+  z-index: 100;
+}
+.attribution a {
+  color: var(--primary);
+}
+
+.qr-card {
+  width: 90vw;
+  max-width: 250px;
+  min-width: 150px;
+  padding: 16px;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 20px;
+  margin: auto;
+}
+
+.qr-card .qr-image {
+  width: 100%;
+  max-width: 100%;
+  width: auto;
+  display: block;
+  background: var(--slate-500);
+  border-radius: 5px;
+}
+
+.qr-card .qr-text {
+  text-align: center;
+  color: var(--slate-900);
+}
+
+.qr-card .qr-text .qr-title {
+  text-align: center;
+  margin-top: 16px;
+  font-weight: 700;
+}
+
+.qr-card .qr-text .qr-description {
+  text-align: center;
+  color: var(--slate-500);
+  font-weight: 400;
+}
