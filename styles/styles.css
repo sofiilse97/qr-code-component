@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Outfit";
+  font-family: "Outfit", sans-serif, Roboto;
   background-color: var(--slate-300);
   margin: auto;
   padding: 0;
